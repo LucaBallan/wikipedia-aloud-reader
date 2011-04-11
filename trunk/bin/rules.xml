@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<wikireader_rules>
+ <it>
+  <rule id="(?&lt;=\W)a\.c\.">avanti Cristo</rule>
+  <rule id="(?&lt;=\W)d\.c\.">dopo Cristo</rule>
+  <rule id="(?&lt;=\W)Sig\.(?=\W)">Signor</rule>
+  <rule id="(?&lt;=\W)ca(?=\W)">circa</rule>
+  <!-- Tipi X. (ogni volta che si aggiunge uno lo si deve escludere dall'eliminazione) -->
+  <rule id="(?&lt;=\W)S\.">San</rule>
+  <!-- Elimina tutti i rimanenti X. -->
+  <rule id="(?&lt;=\W)(?!S)(?&lt;text&gt;[A-Z])\.">${text}</rule>
+
+  <rule id="1\s?m(?=[\s\.,\)])"> un metro</rule>
+  <rule id="1\s?km(?=[\s\.,\)])"> un kilometro</rule>
+  <rule id="1\s?l(?=[\s\.,\)])"> un litro</rule>
+  <rule id="1\s?g(?=[\s\.,\)])"> un grammo</rule>
+  <rule id="1\s?kg(?=[\s\.,\)])"> un kilogrammo</rule>
+  <rule id="1\s?°C(?=[\s\.,\)])"> un grado centigrado</rule>
+  <rule id="1\s?m²(?=[\s\.,\)])"> un metro quadrato</rule>
+  <rule id="(?&lt;=\d)\s?m(?=[\s\.,\)])"> metri</rule>
+  <rule id="(?&lt;=\d)\s?cm(?=[\s\.,\)])"> centimetri</rule>
+  <rule id="(?&lt;=\d)\s?mm(?=[\s\.,\)])"> millimetri</rule>
+  <rule id="(?&lt;=\d)\s?km(?=[\s\.,\)])"> kilometri</rule>
+  <rule id="(?&lt;=\d)\s?km²(?=[\s\.,\)])"> kilometri quadrati</rule>
+  <rule id="(?&lt;=\d)\s?m²(?=[\s\.,\)])"> metri quadrati</rule>
+  <rule id="(?&lt;=\d)\s?kg(?=[\s\.,\)])"> kilogrammi</rule>
+  <rule id="(?&lt;=\d)\s?g(?=[\s\.,\)])"> grammi</rule>
+  <rule id="(?&lt;=\d)\s?mg(?=[\s\.,\)])"> milligrammi</rule>
+  <rule id="(?&lt;=\d)\s?l(?=[\s\.,\)])"> litri</rule>
+  <rule id="(?&lt;=\d)\s?ml(?=[\s\.,\)])"> millilitri</rule>
+  <rule id="(?&lt;=\d)\s?°C(?=[\s\.,\)])"> gradi centigradi</rule>
+ </it>
+ <en>
+    <rule id="i\.e\.">that is</rule>
+ </en>
+ </wikireader_rules>

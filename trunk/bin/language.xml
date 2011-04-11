@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<messages>
+    <it>
+      <msg id="keyboard_remap_code">qazwsxedcrfvtgbyhnujmik,ol.p|abcdefghilmnopqrstuvz.,jkywx</msg>
+      <msg id="Go back to the previous menu">Ritorna al menu precedente</msg>
+      <msg id="Choice">Opzione</msg>
+      <msg id="Press escape once you finished. Press enter to listen what you already wrote.">Premi ESC quando hai finito. Premi invio per riascoltare quanto hai già scritto.</msg>
+      <msg id="Text deleted.">Testo cancellato.</msg>
+      
+      <msg id="comma">virgola</msg>
+      <msg id="full stop">punto</msg>
+      <msg id="dash">trattino</msg>
+      <msg id="plus">più</msg>
+      <msg id="asterisk">per</msg>
+      <msg id="less than">minore</msg>
+      <msg id="slash">slash</msg>
+      <msg id="question mark">punto interrogativo</msg>
+      <msg id="exclamation mark">punto esclamativo</msg>
+      <msg id="underscore">sottolineatura</msg>
+      <msg id="colon">due punti</msg>
+      <msg id="semicolon">punto e virgola</msg>
+      <msg id="greater than">maggiore</msg>
+      <msg id="apostrophe">apostrofo</msg>
+      <msg id="caret">apice</msg>
+      <msg id="open bracket">aperta parentesi</msg>
+      <msg id="close bracket">chiusa parentesi</msg>
+      <msg id="space">spazio</msg>
+      <msg id="Internal error.">Errore interno.</msg>
+      
+      <msg id="Main Menu">Menu Principale</msg>
+      <msg id="Search on Wikipedia">Cerca su Wikipedia</msg>
+      <msg id="Learn how to use the keyboard">Impara ad usare la tastiera</msg>
+      <msg id="Write the text to search.">Digita il testo da cercare.</msg>
+      <msg id="Press any key on the keyboard and I will read it. To go back to the previous menu, press escape, that is, the upper-left-most key on the keyboard.">Premi un qualsiasi tasto della tastiera e verrà letto. Per tornare al menu precedente premere ESC ovvero il tasto in alto a sinistra.</msg>
+
+      <msg id="Skype call">Chiamata skaipe</msg>
+      <msg id="Make a skype call">Effettua una chiamata scaipe</msg>
+      <msg id="Calling {0}... Please wait.">Chiamata in corso per {0}... Attendere.</msg>
+      <msg id="Call {0}">Chiama {0}</msg>
+
+    </it>
+    <en>
+      <msg id="keyboard_remap_code">qazwsxedcrfvtgbyhnujmik,ol.p|abcdefghijklmnopqrstuvwxyz.,</msg>
+    </en>
+</messages>
