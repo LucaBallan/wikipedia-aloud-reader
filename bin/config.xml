@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<wikireader_config>
+
+  <connection_data>
+    <var id="username">username</var>
+    <var id="password">password</var>
+  </connection_data>
+
+  <wiki_voice>
+    <it>
+      <var id="wiki">http://it.wikipedia.org</var>
+      <var id="voice">Italian Voice</var>
+    </it>
+    <en>
+      <var id="wiki">http://en.wikipedia.org</var>
+      <var id="voice">Microsoft Anna</var>
+    </en>
+  </wiki_voice>
+
+  <messages>
+    <it>
+      <msg id="Page not found.">Pagina non trovata.</msg>
+      <msg id="Section ${text}:">Sezione ${text}:</msg>
+      <msg id="Subsection ${text}:">Sottosezione ${text}:</msg>
+      <msg id="Missing table.">Tabella mancante.</msg>
+      <msg id="Searching for &quot;{0}&quot;.">Sto cercando "{0}".</msg>
+      <msg id="Found         &quot;{0}&quot;.">Trovato      "{0}".</msg>
+      <msg id="Did you mean:">Forse cercavi:</msg>
+      <msg id="Special:Search">Speciale:Ricerca</msg>
+      <msg id="I%27m+Feeling+Lucky">Mi+sento+fortunato</msg>
+      <msg id="Search results">Risultati della ricerca</msg>
+      <msg id="Title">Titolo</msg>
+      <msg id="Name">Nome</msg>
+      <msg id="Surname">Cognome</msg>
+      <msg id="PostSurname">PostCognomeVirgola</msg>
+      <msg id="BirthPlace">LuogoNascita</msg>
+      <msg id="BirthDate">GiornoMeseNascita</msg>
+      <msg id="BirthYear">AnnoNascita</msg>
+      <msg id="DeathPlace">LuogoMorte</msg>
+      <msg id="DeathDate">GiornoMeseMorte</msg>
+      <msg id="DeathYear">AnnoMorte</msg>
+      <msg id="Gender">Sesso</msg>
+      <msg id="Activity">Attività</msg>
+      <msg id="OtherActivities">AttivitàAltre</msg>
+      <msg id="PostNationality">PostNazionalità</msg>
+      <msg id="Nationality">Nazionalità</msg>
+      <msg id="is aM">è unM</msg>
+      <msg id="is aF">è unaF</msg>
+      <msg id="and">e</msg>
+      
+      <msg id="Connection error.">Errore di connessione.</msg>
+      <msg id="Voice unavailable. Using the default voice.">Voce non trovata. Utilizzo quella di default.</msg>
+      <msg id="&quot;\Cache\Defaults.dat&quot; file is invalid.">File "\Cache\Defaults.dat" invalido.</msg>
+      <msg id="&quot;\Cache\Defaults.dat&quot; file not found.">File "\Cache\Defaults.dat" non esistente.</msg>
+      <msg id="Bot action on &quot;{0}&quot; page is prohibited by &quot;nobots&quot; or &quot;bots|allow=none&quot; template.">Entrambe le azioni sulla pagina "{0}" sono proibite da "nobots" o da "bots|allow=none".</msg>
+      <msg id="Can't access image &quot;{0}&quot;.">Non posso accedere all'immagine "{0}".</msg>
+      <msg id="Can't access the site.">Non posso accedere al sito.</msg>
+      <msg id="Can't get category members using bot interface.\nSwitching to common user interface (&quot;site.botQuery&quot; is set to &quot;false&quot;).">Non posso leggere i membri delle categorie usando l'interfaccia bot.\nPassare all'interfaccia comune ("site.botQuery" è impostato su "falso").</msg>
+      <msg id="Can't revert page &quot;{0}&quot;.">Non posso revertire la pagina "{0}".</msg>
+      <msg id="Can't undo last edits of page &quot;{0}&quot; by user {1}.">Non posso annullare le ultime modifiche fatte sulla pagina "{0}" dall'utente {1}.</msg>
+      <msg id="Downloading image &quot;{0}&quot;...">Sto scaricando l'immagine "{0}"...</msg>
+      <msg id="Edit conflict occurred while trying to savе page &quot;{0}&quot;.">Conflitto rilevato durante il salvataggio della pagina "{0}".</msg>
+      <msg id="Error occurred when downloading image &quot;{0}&quot;.">Errore durante lo scaricamento dell'immagine "{0}".</msg>
+      <msg id="Error occurred when saving page &quot;{0}&quot;: Bot operation is not allowed for this account at &quot;{1}&quot; site.">Errore durante il salvataggio della pagina "{0}": Operazione non autorizzata per l'utente "{1}".</msg>
+      <msg id="Error occurred when uploading image &quot;{0}&quot;.">Errore durante l'importazione dell'immagine "{0}".</msg>
+      <msg id="Error: {0}">Errore: {0}</msg>
+      <msg id="Failed to delete page &quot;{0}&quot;.">Errore durante la cancellazione della pagina "{0}".</msg>
+      <msg id="Failed to rename page &quot;{0}&quot; to &quot;{1}&quot;.">Errore durante la rinominazione della pagina "{0}" in "{1}".</msg>
+      <msg id="Getting category &quot;{0}&quot; contents...">Caricamento categoria "{0}"...</msg>
+      <msg id="Logged in as {0}.">Autentificato come {0}.</msg>
+      <msg id="Logging in...">Autentificazione...</msg>
+      <msg id="Login failed. Check your username and password.">Autentificazione fallita. Controllare username e password.</msg>
+      <msg id="Site: {0} ({1})">Sito: {0} ({1})</msg>
+      <msg id="Text for page &quot;{0}&quot; successfully loaded from &quot;{1}&quot; file.">Testo della pagina "{0}" caricato da "{1}".</msg>
+      <msg id="Initializing disambiguation template tags...">Risoluzione delle disambiguazioni...</msg>
+      <msg id="Page &quot;{0}&quot; loaded successfully.">Pagina "{0}" caricata.</msg>
+    </it>
+  </messages>
+
+</wikireader_config>
