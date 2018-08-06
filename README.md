@@ -1,6 +1,9 @@
 
-# TTS_Interface:  software for voice assisted text input and menu selection 
-# WikiReader:     software to read aloud wikipedia pages.
+# TTS_Interface and WikiReader
+
+TTS_Interface :  software for voice assisted text input and menu selection 
+WikiReader    :  software to read aloud wikipedia pages.
+
 
 
 ---------------
@@ -9,26 +12,26 @@ Run the code:
 
 1) Go in the bin directory
 2) Edit config.xml:
-       - set your Wikipedia username and password inside the <connection_data> tag
-       - set the TTS voice inside the <var id="voice"> tag. To list all the voices 
-         installed on your computer, go to "Control panel" -> "Text to Speech".
+    - set your Wikipedia username and password inside the <connection_data> tag
+    - set the TTS voice inside the <var id="voice"> tag. 
+    - To list all the voices installed on your computer, go to "Control panel" -> "Text to Speech".
 3) Run TTS_Interface.exe 
    or 
    Run TTS_Interface.exe "language" "specific_voice_name"
    
 
-
+<BR>
 Note: To simplify the keyboard usage for blind people, all the keys are remapped according to 
       what it is specified in language.xml. In the English configuration, all the letters of 
-      the alphabet are mapped column major on the keyboard, i.e., on a querty keyboard
-      "q" corresponds to "a"
-      "a" corresponds to "b"
-      "z" corresponds to "c"
-      "w" corresponds to "d"
-      "s" corresponds to "e"
-      ... and so on ...
-      (see language.xml)
-
+      the alphabet are mapped column major on the keyboard, i.e., on a querty keyboard<BR>
+      "q" corresponds to "a"<BR>
+      "a" corresponds to "b"<BR>
+      "z" corresponds to "c"<BR>
+      "w" corresponds to "d"<BR>
+      "s" corresponds to "e"<BR>
+      ... and so on ...<BR>
+      (see language.xml)<BR>
+<BR>
 
 
 -----------------
