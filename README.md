@@ -1,8 +1,8 @@
 
 # TTS_Interface and WikiReader
 <BR>
-TTS_Interface :  software for voice assisted text input and menu selection <BR>
-WikiReader    :  software to read aloud wikipedia pages<BR>
+TTS_Interface:  software for voice assisted text input and menu selection <BR>
+WikiReader:  software to read aloud wikipedia pages<BR>
 <BR>
 
 
@@ -20,18 +20,19 @@ Run the code:
    
 
 <BR>
+    
 Note:
 ------
     To simplify the keyboard usage for blind people, all the keys are remapped according to 
       what it is specified in language.xml. In the English configuration, all the letters of 
       the alphabet are mapped column major on the keyboard, i.e., on a querty keyboard<BR>
-- "q" corresponds to "a"<BR>
--  "a" corresponds to "b"<BR>
--      "z" corresponds to "c"<BR>
--     "w" corresponds to "d"<BR>
--     "s" corresponds to "e"<BR>
--     ... and so on ...<BR>
--     (see language.xml)<BR>
+ - "q" corresponds to "a"
+ -  "a" corresponds to "b"
+ -      "z" corresponds to "c"
+ -     "w" corresponds to "d"
+ -     "s" corresponds to "e"
+ -     ... and so on ...
+ -     (see language.xml)
 <BR>
 
 
@@ -67,6 +68,7 @@ Contains all the necessary translations used in the code and also the keyboard r
 
 
 <br>
+
 rules.xml:
 ------
 
