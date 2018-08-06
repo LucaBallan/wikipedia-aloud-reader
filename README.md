@@ -2,13 +2,12 @@
 # TTS_Interface and WikiReader
 <BR>
 TTS_Interface :  software for voice assisted text input and menu selection <BR>
-WikiReader    :  software to read aloud wikipedia pages.
+WikiReader    :  software to read aloud wikipedia pages<BR>
 <BR>
 
 
----------------
 Run the code:
----------------
+------
 
 1) Go in the bin directory
 2) Edit config.xml:
@@ -21,31 +20,34 @@ Run the code:
    
 
 <BR>
-Note: To simplify the keyboard usage for blind people, all the keys are remapped according to 
+Note:
+------
+    To simplify the keyboard usage for blind people, all the keys are remapped according to 
       what it is specified in language.xml. In the English configuration, all the letters of 
       the alphabet are mapped column major on the keyboard, i.e., on a querty keyboard<BR>
-      - "q" corresponds to "a"<BR>
-      "a" corresponds to "b"<BR>
-      "z" corresponds to "c"<BR>
-      "w" corresponds to "d"<BR>
-      "s" corresponds to "e"<BR>
-      ... and so on ...<BR>
-      (see language.xml)<BR>
+- "q" corresponds to "a"<BR>
+-  "a" corresponds to "b"<BR>
+-      "z" corresponds to "c"<BR>
+-     "w" corresponds to "d"<BR>
+-     "s" corresponds to "e"<BR>
+-     ... and so on ...<BR>
+-     (see language.xml)<BR>
 <BR>
 
 
 <br>
 
 Compile the code:
------------------
+------
 
 1) Compile both WikiReader and TTS_Interface in Release mode
 2) Place in the same directory WikiReader.exe, TTS_Interface.exe, rules.xml, language.xml 
    and config.xml
 
 <br>
+
 config.xml:
----------------
+------
 
 Contains all the necessary information to connect to a wiki server (user, password, server name), and
 the information regarding the selected language and the selected voice (see control panel for a list 
@@ -56,8 +58,9 @@ file for languages different than English. See code for details.
 
 
 <br>
+
 language.xml:
----------------
+------
 
 Contains all the necessary translations used in the code and also the keyboard remapping layout.
 
@@ -65,7 +68,7 @@ Contains all the necessary translations used in the code and also the keyboard r
 
 <br>
 rules.xml:
----------------
+------
 
 Additional rules (expressed as regular expressions) to convert the written text in a readable text. See
 the code for more information.
