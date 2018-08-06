@@ -21,18 +21,14 @@ Run the code:
 
 <BR>
     
-Note:
-------
-    To simplify the keyboard usage for blind people, all the keys are remapped according to 
-      what it is specified in language.xml. In the English configuration, all the letters of 
-      the alphabet are mapped column major on the keyboard, i.e., on a querty keyboard<BR>
+Note: To simplify the keyboard usage for blind people, all the keys are remapped according to what it is specified in language.xml. In the English configuration, all the letters of the alphabet are mapped column major on the keyboard, i.e., on a querty keyboard<BR>
  - "q" corresponds to "a"
- -  "a" corresponds to "b"
- -      "z" corresponds to "c"
- -     "w" corresponds to "d"
- -     "s" corresponds to "e"
- -     ... and so on ...
- -     (see language.xml)
+ - "a" corresponds to "b"
+ - "z" corresponds to "c"
+ - "w" corresponds to "d"
+ - "s" corresponds to "e"
+ - ... and so on ...
+ - (see language.xml)
 <BR>
 
 
